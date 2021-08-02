@@ -1,0 +1,117 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.serie-principal {
+    height: 400px;
+    background-color: rgba(78, 14, 14, 0.13);
+    background: url(img/lucifer.jpg);
+    font-size: 16px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao {
+    margin-bottom: 90px;
+}
+
+.filme-principal {
+    height: 400px;
+    background-color: rgba(78, 14, 14, 0.13);
+    background: url(img/guerra-amanha.jpg);
+    font-size: 16px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 90px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+    color: black;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+}
